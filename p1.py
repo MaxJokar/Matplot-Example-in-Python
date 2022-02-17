@@ -121,6 +121,26 @@ import numpy as np
 
 #====================Pie Chart=================
 
+# y=np.array([23,5,2,60,10])
+# plt.pie(y)
+# plt.show()
+
+
+y=np.array([20,50,10,15,5])
+colors=['green','pink','black','red','purple']
+labels=['Andy','George','Mark','Daniel','David']
+# plt.pie(y,colors=colors,labels=labels)
+# plt.pie(y,colors=colors,labels=labels,shadow=True)
+plt.pie(y,colors=colors,labels=labels,shadow=True,startangle=90)
+plt.show()
+
+
+
+
+
+
+
+
 
 
 
