@@ -68,6 +68,71 @@ import numpy as np
 # plt.show()
 
 
+# x=np.linspace(0,2*np.pi,100)
+# y=np.sin(x)
+# print(x)
+# print(y)
+# plt.plot(x,y)
+# plt.show()
+
+
+
+# x=np.linspace(0,2*np.pi,100)
+# y=np.cos(x)
+# plt.subplot(1,2,2)
+
+
+# plt.plot(x,y)
+
+# plt.show()
+
+
+#=============Scatter================
+
+# x=np.linspace(-2,2,40 )
+# y=x**3
+# # plt.scatter(x,y)
+# plt.scatter(x,y,color='green')
+# plt.show()
+
+
+# x=np.linspace(-2,2,40 )
+# y=x**3
+# plt.scatter(x,y,color='blue')
+
+# x=np.linspace(-2,2,40 )
+# y=x**2
+
+# plt.scatter(x,y,color='red')
+# plt.show()
+
+
+
+#==========Bar chart
+# x=np.array(['2018','2019','2020','2021'])
+# y=np.array([500,600,700,900])
+# plt.bar(x,y)
+# plt.show()
+
+# x=np.array(['2018','2019','2020','2021'])
+# y=np.array([500,600,700,900])
+# plt.bar(x,y,color='green')
+# plt.show()
+
+#====================Pie Chart=================
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
