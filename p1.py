@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from matplotlib.transforms import Bbox
 import numpy as np
 
-x=[1,8,13,45]
-y=[5,3,20,56]
+# x=[1,8,13,45]
+# y=[5,3,20,56]
 
 # plt.plot(x,y,'o--')
 # plt.plot(x,y,'o:')
@@ -12,29 +12,60 @@ y=[5,3,20,56]
 # plt.plot(x,y,'.-.')
 # plt.plot(x,y,'x-')
 # plt.plot(x,y,'p-r') #p for polygon r for red 
-plt.plot(x,y,'p-r',ms=20,mec='b',mfc='g')
-font1={'family':'tahoma','color':'blue','size':20}
-font2={'family':'tahoma','color':'green','size':15}
-font3={'family':'tahoma','color':'black','size':10}
-plt.title('My-Chart',fontdict=font2)
-plt.xlabel('x-axis',fontdict=font1)
-plt.ylabel('y-axis',fontdict=font1)
-plt.text(10,40,' MyText',fontdict=font3,bbox=dict(facecolor='red',alpha=0.5))
-# plt.grid()
-plt.grid(axis='x',color='pink')
-plt.savefig('chart1')# is saved in our folder
-plt.show()
+# plt.plot(x,y,'p-r',ms=20,mec='b',mfc='g')
+# font1={'family':'tahoma','color':'blue','size':20}
+# font2={'family':'tahoma','color':'green','size':15}
+# font3={'family':'tahoma','color':'black','size':10}
+# plt.title('My-Chart',fontdict=font2)
+# plt.xlabel('x-axis',fontdict=font1)
+# plt.ylabel('y-axis',fontdict=font1)
+# plt.text(10,40,' MyText',fontdict=font3,bbox=dict(facecolor='red',alpha=0.5))
+# # plt.grid()
+# plt.grid(axis='x',color='pink')
+# plt.savefig('chart1')# is saved in our folder
+# plt.show()
 
 
+#=============================================PART 2
+# x=np.linspace(0,10,10 )
+# y=np.linspace(0,10,10 )
+# plt.plot(x,y,'o-')
+# plt.show()
 
 
+# x=[1,8,13,45]
+# y=[5,3,20,56]
+# plt.plot(x,y,'o-')
+# plt.show()
 
 
+# x=np.linspace(-2,2,100 )
+# y=x**2
+# plt.plot(x,y)
+# plt.show()
 
+# x=np.linspace(-2,2,100 )
+# y=x**3
+# plt.plot(x,y)
+# plt.show()
+#========================Subplots==================================
 
+# x=np.linspace(-2,2,100 )
+# y=x**2
+# plt.subplot(2,3,1)
+# plt.plot(x,y)
 
+# x=np.linspace(-2,2,100 )
+# y=x**3
+# plt.subplot(2,3,2)
+# plt.plot(x,y)
 
+# plt.subplot(2,3,2)
+# y=x**4
+# plt.subplot(2,3,3)
+# plt.plot(x,y)
 
+# plt.show()
 
 
 
