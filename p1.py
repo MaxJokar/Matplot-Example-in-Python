@@ -19,7 +19,8 @@ font3={'family':'tahoma','color':'black','size':10}
 plt.title('My-Chart',fontdict=font2)
 plt.xlabel('x-axis',fontdict=font1)
 plt.ylabel('y-axis',fontdict=font1)
-plt.text(10,40,'MyText',fontdict=font3,bbox=dict(facecolor='red',alpha=0.5))
+plt.text(10,40,' MyText',fontdict=font3,bbox=dict(facecolor='red',alpha=0.5))
+plt.grid()
 plt.show()
 
 
